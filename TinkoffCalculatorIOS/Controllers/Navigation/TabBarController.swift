@@ -16,6 +16,8 @@ final class TabBarController: UITabBarController {
     
     override  init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+        
+        configureAppearance()
     }
     
     required init?(coder: NSCoder) {
@@ -31,6 +33,24 @@ final class TabBarController: UITabBarController {
         tabBar.layer.borderWidth = 1
         tabBar.layer.masksToBounds = true
         
+        let calculatorController = CalculatorController()
+        let historyController = HistoryController()
+        
+        let calculatorNavigation = NavBarController(rootViewController: calculatorController)
+        let historyNavigation = NavBarController(rootViewController: historyController)
+        
+        calculatorNavigation.tabBarItem = UITabBarItem(title: Resources.Strings.TabBar.title(for: .calculator),
+                                                       image: Resources.Images.TabBar.icon(for: .calculator),
+                                                       tag: Tabs.calculator.rawValue)
+        
+        historyController.tabBarItem = UITabBarItem(title: Resources.Strings.TabBar.title(for: .history),
+                                                    image: Resources.Images.TabBar.icon(for: .history),
+                                                    tag: Tabs.history.rawValue)
+        
+        setViewControllers([
+            calculatorNavigation,
+            historyNavigation
+        ], animated: false)
 //        let controllers: [NavBarController] = Tabs.allCases.map { tab in
 //            let controller = NavBarController(rootViewController: getController(for: tab))
 //            controller.tabBarItem = UITabBarItem(title: Resources.Strings.TabBar.title(for: tab),

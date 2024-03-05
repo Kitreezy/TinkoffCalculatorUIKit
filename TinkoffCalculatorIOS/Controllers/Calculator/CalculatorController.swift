@@ -7,14 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CalculatorController: BaseController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let view = UIView()
-        view.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
-        view.backgroundColor = .blue
         
+        title = "Calculator"
+        navigationController?.tabBarItem.title = Resources.Strings.TabBar.title(for: .calculator)
     }
 
 
