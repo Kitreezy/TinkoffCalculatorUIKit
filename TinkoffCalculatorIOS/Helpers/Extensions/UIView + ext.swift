@@ -19,4 +19,10 @@ extension UIView {
                                  height: height)
         addSubview(separator)
     }
+    
+    // MARK: - Add SubView Section
+    @objc func setupView(_ view: UIView) {
+        addSubview(view)
+        view.translatesAutoresizingMaskIntoConstraints = false
+    }
 }

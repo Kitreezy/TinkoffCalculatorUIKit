@@ -19,10 +19,10 @@ final class NavBarController: UINavigationController {
         view.backgroundColor = .white
         navigationBar.isTranslucent = false
         navigationBar.standardAppearance.titleTextAttributes = [
-            .foregroundColor: Resources.Colors.titleGray,
-            .font: Resources.Fonts.helveticaRegular(with: 17)
+            .foregroundColor: R.Colors.titleGray,
+            .font: R.Fonts.helveticaRegular(with: 17)
         ]
-        navigationBar.addBottonBorder(with: Resources.Colors.separator,
+        navigationBar.addBottonBorder(with: R.Colors.separator,
                                       height: 1)
     }
 }

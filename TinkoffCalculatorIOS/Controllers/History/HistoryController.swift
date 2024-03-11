@@ -13,7 +13,7 @@ class HistoryController: BaseController {
         super.viewDidLoad()
         
         title = "History Calculate"
-        navigationController?.tabBarItem.title = Resources.Strings.TabBar.title(for: .history)
+        navigationController?.tabBarItem.title = R.Strings.TabBar.title(for: .history)
     }
 
 

@@ -12,6 +12,8 @@ class BaseController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupViews()
+        constraintViews()
         configureAppearence()
     }
 }
@@ -23,7 +25,7 @@ class BaseController: UIViewController {
     func constraintViews() {}
     
     func configureAppearence() {
-        view.backgroundColor = Resources.Colors.background
+        view.backgroundColor = R.Colors.background
     }
     
 }

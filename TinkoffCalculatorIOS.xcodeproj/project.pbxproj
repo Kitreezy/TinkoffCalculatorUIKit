@@ -17,11 +17,17 @@
 		57AB3BCC2B9148600005B006 /* TinkoffCalculatorIOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BCB2B9148600005B006 /* TinkoffCalculatorIOSUITestsLaunchTests.swift */; };
 		57AB3BDD2B9152AE0005B006 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BDC2B9152AE0005B006 /* TabBarController.swift */; };
 		57AB3BE12B9155190005B006 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BE02B9155190005B006 /* UIColor + ext.swift */; };
-		57AB3BE32B91555D0005B006 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BE22B91555D0005B006 /* Resources.swift */; };
+		57AB3BE32B91555D0005B006 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BE22B91555D0005B006 /* R.swift */; };
 		57AB3BE52B97D88C0005B006 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BE42B97D88C0005B006 /* NavBarController.swift */; };
 		57AB3BE82B97DC9A0005B006 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BE72B97DC9A0005B006 /* BaseController.swift */; };
 		57AB3BEA2B97DE290005B006 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BE92B97DE290005B006 /* UIView + ext.swift */; };
 		57AB3BEE2B97DF8A0005B006 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BED2B97DF8A0005B006 /* HistoryController.swift */; };
+		57AB3BF02B992E900005B006 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BEF2B992E900005B006 /* HistoryTableViewCell.swift */; };
+		57AB3BF22B9F48960005B006 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BF12B9F48960005B006 /* BaseView.swift */; };
+		57AB3BF52B9F4B380005B006 /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BF42B9F4B380005B006 /* BaseInfoView.swift */; };
+		57AB3BF92B9FBCCA0005B006 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BF82B9FBCCA0005B006 /* ButtonsView.swift */; };
+		57AB3BFB2B9FBE6B0005B006 /* Preview + modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3BFA2B9FBE6B0005B006 /* Preview + modifier.swift */; };
+		57AB3C342B9FC5CB0005B006 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AB3C332B9FC5CB0005B006 /* CalculatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +62,17 @@
 		57AB3BCB2B9148600005B006 /* TinkoffCalculatorIOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorIOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		57AB3BDC2B9152AE0005B006 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		57AB3BE02B9155190005B006 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
-		57AB3BE22B91555D0005B006 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		57AB3BE22B91555D0005B006 /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
 		57AB3BE42B97D88C0005B006 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		57AB3BE72B97DC9A0005B006 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		57AB3BE92B97DE290005B006 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 		57AB3BED2B97DF8A0005B006 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		57AB3BEF2B992E900005B006 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		57AB3BF12B9F48960005B006 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		57AB3BF42B9F4B380005B006 /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
+		57AB3BF82B9FBCCA0005B006 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		57AB3BFA2B9FBE6B0005B006 /* Preview + modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview + modifier.swift"; sourceTree = "<group>"; };
+		57AB3C332B9FC5CB0005B006 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +151,7 @@
 		57AB3BD82B9148840005B006 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				57AB3C322B9FC59F0005B006 /* Buttons */,
 				57AB3BEC2B97DF730005B006 /* History */,
 				57AB3BEB2B97DF670005B006 /* Calculator */,
 				57AB3BE62B97DC8B0005B006 /* Base */,
@@ -179,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				57AB3BDF2B9154FF0005B006 /* Extensions */,
-				57AB3BE22B91555D0005B006 /* Resources.swift */,
+				57AB3BE22B91555D0005B006 /* R.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -189,6 +202,7 @@
 			children = (
 				57AB3BE02B9155190005B006 /* UIColor + ext.swift */,
 				57AB3BE92B97DE290005B006 /* UIView + ext.swift */,
+				57AB3BFA2B9FBE6B0005B006 /* Preview + modifier.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -196,6 +210,7 @@
 		57AB3BE62B97DC8B0005B006 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				57AB3BF32B9F4B270005B006 /* Views */,
 				57AB3BE72B97DC9A0005B006 /* BaseController.swift */,
 			);
 			path = Base;
@@ -204,6 +219,7 @@
 		57AB3BEB2B97DF670005B006 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				57AB3BF72B9F4ECF0005B006 /* Views */,
 				57AB3BAC2B91485D0005B006 /* CalculatorController.swift */,
 			);
 			path = Calculator;
@@ -212,9 +228,43 @@
 		57AB3BEC2B97DF730005B006 /* History */ = {
 			isa = PBXGroup;
 			children = (
+				57AB3BF62B9F4EC80005B006 /* Views */,
 				57AB3BED2B97DF8A0005B006 /* HistoryController.swift */,
+				57AB3BEF2B992E900005B006 /* HistoryTableViewCell.swift */,
 			);
 			path = History;
+			sourceTree = "<group>";
+		};
+		57AB3BF32B9F4B270005B006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57AB3BF12B9F48960005B006 /* BaseView.swift */,
+				57AB3BF42B9F4B380005B006 /* BaseInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57AB3BF62B9F4EC80005B006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57AB3BF72B9F4ECF0005B006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57AB3BF82B9FBCCA0005B006 /* ButtonsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57AB3C322B9FC59F0005B006 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				57AB3C332B9FC5CB0005B006 /* CalculatorButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,11 +400,17 @@
 				57AB3BEE2B97DF8A0005B006 /* HistoryController.swift in Sources */,
 				57AB3BAD2B91485D0005B006 /* CalculatorController.swift in Sources */,
 				57AB3BEA2B97DE290005B006 /* UIView + ext.swift in Sources */,
+				57AB3BF22B9F48960005B006 /* BaseView.swift in Sources */,
+				57AB3BF92B9FBCCA0005B006 /* ButtonsView.swift in Sources */,
 				57AB3BE12B9155190005B006 /* UIColor + ext.swift in Sources */,
 				57AB3BDD2B9152AE0005B006 /* TabBarController.swift in Sources */,
+				57AB3C342B9FC5CB0005B006 /* CalculatorButton.swift in Sources */,
 				57AB3BE52B97D88C0005B006 /* NavBarController.swift in Sources */,
-				57AB3BE32B91555D0005B006 /* Resources.swift in Sources */,
+				57AB3BE32B91555D0005B006 /* R.swift in Sources */,
+				57AB3BF52B9F4B380005B006 /* BaseInfoView.swift in Sources */,
+				57AB3BFB2B9FBE6B0005B006 /* Preview + modifier.swift in Sources */,
 				57AB3BA92B91485D0005B006 /* AppDelegate.swift in Sources */,
+				57AB3BF02B992E900005B006 /* HistoryTableViewCell.swift in Sources */,
 				57AB3BE82B97DC9A0005B006 /* BaseController.swift in Sources */,
 				57AB3BAB2B91485D0005B006 /* SceneDelegate.swift in Sources */,
 			);

@@ -7,7 +7,8 @@
 
 import UIKit
 
-enum Resources {
+// MARK: - Resources Section
+enum R {
     // MARK: - Colors Section
     enum Colors {
         static let active = UIColor(hexString: "#437BFE")
